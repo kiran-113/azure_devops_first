@@ -9,7 +9,7 @@ trigger:
 # pool:
 #   vmImage: 'ubuntu-latest'
 pool:
-      name: local  
+  name: Default 
 
 stages:
 - stage: Build
