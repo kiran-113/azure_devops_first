@@ -69,7 +69,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Deploy App Service'
             inputs:
-              azureSubscription: 'Inform-your-subscription'
+              azureSubscription: '3a521529-0f7e-418d-950e-571ed56dbf36'
               appType: 'webAppLinux'
               appName: 'angularwithazure12'
               package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
